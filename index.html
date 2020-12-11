@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+   <script src="main.js"></script>
+    <title>ALOHA CREATIC</title>
+</head>
+<body>
+
+
+  <nav class="navig-box">
+    <button class="toggle-menu-btn" id="toggle-menu-btn" onclick="toggleSitMenu()">
+      <span class="oi oi-menu"></span>
+    </button>
+    
+    <div class="logo-box">
+      <img class="logoclass img-fluid" src="images/logo.png">
+    </div>
+
+    <ul class="navig-menu" id="navig-menu">
+      <li class="nav-item"><a href="#" class="nav-link"  data-toggle="modal" 
+	  data-target="#abc"><span>HOME</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+          data-target="#modalAppointment2"><span>ABOUT</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+          data-target="#modalAppointment4"><span>GALLERY</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal"
+          data-target="#modalAppointment4"><span>SPECIALTY</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><span>REVIEWS</span></a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><span>CONTACT</span></a></li>
+      <li class="nav-item cta"><a href="#" class="nav-link yellow-button" data-toggle="modal" id="but" data-target="#modalAppointment3">BOOK
+          ONLINE</a></li>
+    </ul>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <!-- 1st carousel -->
+      <div class="carousel-item active ba-bg">
+        <div class="image-over">
+        <img class="d-block w-100 back-bg"  style="background-image: url(images/slider-1.jpg);" data-stellar-background-ratio="0.5" alt="Second slide">
+      </div>
+      <!-- <div class="overlay"></div> -->
+  
+      <div class="container">
+        <div class="phonenumber">
+          <i class="fa fa-phone" aria-hidden="true"></i><span style="font-size:17px; color:black;padding-left:10px;"> 522-182-5024</span>
+        </div>
+        <div class="container text-position">
+          <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+          <h1 class="site-heading site-animate fadeInUp site-animated text-black"><strong class="d-block">Dr. Minerva Abbott</strong></h1>
+          <p class=" sub-head-heading text-black">General and Cosmetic Dentistry</p>
+          <p class=" sub-head-heading extra-heading text-black">San Jose, CA</p>
+          </div>
+          </div>
+        </div>
+        <div class="flex-caption card">
+          <div class="card-body">
+          <span><img src="images/yelp.jpg" style="margin-left: -27px;"></span> 
+        <span class="forpoint">4.5</span>
+        <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star-half-full checked"></span>
+          <p  class="text" style="color:#a0a0a0!important">Lorem ipsum dolor sit amet, conse adipiscing elit.</p>
+          <p style="color:#6f6f6f!important">-Jordan Owen </p>
+          <div class="dots">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle fill"></div>
+          </div>    
+        </div>
+        </div>
+      </div>
+      </div>
+      <!-- end of 1st carousel -->
+    
+      <!-- 2nd carousel -->
+       <div class="carousel-item">
+        <img class="d-block w-100 back-bg" style="background-image: url(images/slider-1.jpg);" data-stellar-background-ratio="0.5" alt="Second slide">
+      <div class="overlay"></div>
+  
+      <div class="container">
+        <div class="phonenumber">
+          <i class="fa fa-phone" aria-hidden="true"></i><span style="font-size:17px;color:black; padding-left:10px;"> 522-182-5024</span>
+        </div>
+        <div class="container text-position">
+          <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+            <h1 class="site-heading site-animate fadeInUp site-animated text-black"><strong class="d-block">Dr. Minerva Abbott</strong></h1>
+            <p class=" sub-head-heading text-black">General and Cosmetic Dentistry</p>
+            <p class=" sub-head-heading extra-heading text-black">San Jose, CA</p>
+          </div>
+          </div>
+        </div>
+        <div class="flex-caption card">
+          <div class="card-body">
+          <span><img src="images/yelp.jpg" style="margin-left: -27px;"></span> 
+        <span class="forpoint">4.5</span>
+        <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star-half-full checked"></span>
+          <p  class="text" style="color:#a0a0a0!important">Lorem ipsum dolor sit amet, conse adipiscing elit.</p>
+          <p style="color:#6f6f6f!important">-Jordan Owen </p>
+          <div class="dots">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle fill"></div>
+          </div>    
+        </div>
+        </div>
+      </div>
+      </div> 
+      <!-- end of 2nd carousel -->
+
+      <!-- 3rd carousel -->
+      <div class="carousel-item">
+        <img class="d-block w-100 back-bg"  style="background-image: url(images/slider-1.jpg);" data-stellar-background-ratio="0.5" alt="Second slide">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="phonenumber">
+          <i class="fa fa-phone" aria-hidden="true"></i><span style="font-size:17px; color:black; padding-left:10px;"> 522-182-5024</span>
+        </div>
+        <div class="container text-position">
+          <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+            <h1 class="site-heading site-animate fadeInUp site-animated text-black"><strong class="d-block">Dr. Minerva Abbott</strong></h1>
+            <p class=" sub-head-heading text-black">General and Cosmetic Dentistry</p>
+            <p class=" sub-head-heading extra-heading text-black">San Jose, CA</p>
+          </div>
+          </div>
+        </div>
+        <div class="flex-caption card">
+          <div class="card-body">
+          <span><img src="images/yelp.jpg" style="margin-left: -27px;"></span> 
+          <span class="forpoint">4.5</span>
+        <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star-half-full checked"></span>
+          <p  class="text" style="color:#a0a0a0!important">Lorem ipsum dolor sit amet, conse adipiscing elit.
+          </p>
+          <p style="color:#6f6f6f!important">-Jordan Owen </p>
+          <div class="dots">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle fill"></div>
+          </div>    
+        </div>
+        </div>
+      
+      </div>
+      </div>  
+      <!-- end of 3rd carousel -->
+
+      <!-- 4th carousel -->
+       <div class="carousel-item">
+        <img class="d-block w-100 back-bg"  style="background-image: url(images/slider-1.jpg);" data-stellar-background-ratio="0.5" alt="Second slide">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="phonenumber">
+          <i class="fa fa-phone" aria-hidden="true"></i><span style="font-size:17px;color:black; padding-left:10px;"> 522-182-5024</span>
+        </div>
+        <div class="container text-position">
+          <div class="row intro-text align-items-center justify-content-center">
+          <div class="col-md-10 text-center pt-5">
+            <h1 class="site-heading site-animate fadeInUp site-animated text-black"><strong class="d-block">Dr. Minerva Abbott</strong></h1>
+            <p class=" sub-head-heading text-black">General and Cosmetic Dentistry</p>
+            <p class=" sub-head-heading extra-heading text-black">San Jose, CA</p>
+          </div>
+          </div>
+        </div>
+        <div class="flex-caption card">
+          <div class="card-body">
+          <span><img src="images/yelp.jpg" style="margin-left: -27px;"></span> 
+          <span class="forpoint">4.5</span>
+        <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star-half-full checked"></span>
+          <p  class="text" style="color:#a0a0a0!important">Lorem ipsum dolor sit amet, conse adipiscing elit.
+          </p>
+          <p style="color:#6f6f6f!important">-Jordan Owen </p>
+          <div class="dots">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle fill"></div>
+          </div>    
+        </div>
+        </div>     
+      </div>
+      </div>  
+      <!-- end of 4th carousel -->
+    </div>
+  </div>
+
+  <section class="second">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+        <div class="col-md-6 no-gutters">
+          <img src="https://picsum.photos/340/340" alt="">
+        </div>
+        <div class="col-md-6 side-po">
+          <h3 class="second-heading">Dr Maud McDonald</h3>
+          <h4 class="second-side">General Physician</h4>
+          <p class="text-side">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quis, adipisci dicta porro hic adipisicing elit. Magnam,...</p>
+          <br>
+          <h4 class="head-imp">Education</h4>
+          <p class="no-margin-text">University of Michigan</p>
+          <p class="no-margin-text">School of medical</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+        <div class="col-md-6 no-gutters">
+          <img src="https://picsum.photos/340/350" alt="">
+        </div>
+        <div class="col-md-6 side-po">
+          <h3 class="second-heading">Dr Matilda Figueroa</h3>
+          <h4 class="second-side">General Physician</h4>
+          <p class="text-side">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quis, adipisci dicta porro hic adipisicing elit. Magnam,...</p>
+          <br>
+          <h4 class="head-imp">Education</h4>
+          <p class="no-margin-text">University of Michigan</p>
+          <p class="no-margin-text">School of medical</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row back-light">
+      <div class="col-md-6 border-create">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="float-right" src="images/star.PNG" alt="">
+                </div>
+              <div class="col-md-6">
+                <h5 class="second-down-text">Membership</h5>
+                  <p class="second-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitatione</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="float-right" src="images/comment.PNG" alt="">
+                </div>
+              <div class="col-md-6">
+                <h5 class="second-down-text-2">Languages</h5>
+                <p class="remove">English</p>
+                  <p class="second-para">French</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="float-right" src="images/star.PNG" alt="">
+                </div>
+              <div class="col-md-6">
+                <h5 class="second-down-text">Membership</h5>
+                  <p class="second-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione exercitatione</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                  <img class="float-right" src="images/comment.PNG" alt="">
+                </div>
+              <div class="col-md-6">
+                <h5 class="second-down-text-2">Languages</h5>
+                <p class="remove">English</p>
+                  <p class="second-para">French</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="our-practice">
+    <h2 class="practice-heading">Our Practice</h2>
+    <div class="wrapper">
+      <div class="container containerr">
+        <div class="normal">
+          <img class="zoom-grid" src="https://picsum.photos/600/300" alt="">
+        </div>
+        <div class="normal"><img class="zoom-grid"  src="https://picsum.photos/200/350" alt=""></div>
+        <div class="vertical"><img class="zoom-grid"  src="https://picsum.photos/400/750" alt=""></div>
+        <div class="horizontal"><img class="zoom-grid" src="https://picsum.photos/800/400" alt=""></div>
+       
+      </div>
+    </div>
+    </div>
+  </section>
+
+    <section class="other-bg services">
+        <h2 class="gold service-heading">Our Services</h2>
+        <div class="container">
+            <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image--cover">                    
+            <img src="http://static.eharmony.com/blog/wp-content/uploads/2010/04/eHarmony-Blog-profile-picture.jpg" alt="" class="image--cover" />           
+            <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image--cover">                    
+            <img src="http://static.eharmony.com/blog/wp-content/uploads/2010/04/eHarmony-Blog-profile-picture.jpg" alt="" class="image--cover" />            
+            <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="" class="image--cover" />
+            <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="" class="image--cover" />
+            <img src="http://static.eharmony.com/blog/wp-content/uploads/2010/04/eHarmony-Blog-profile-picture.jpg" alt="" class="image--cover" />
+            <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="" class="image--cover" />
+            <img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="" class="image--cover" />
+            <img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="" class="image--cover" />
+        </div>       
+    </section>
+
+    <section class="gold-bg insurance">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h1 class="in-heading">Insurance</h1>
+                    <p class="mt-4">We accept all kinds of PPO and indemnity insurance. A preferred provider organization, typically referred to as a PPO, offers you easy access to a network of providers who provide services at a discounted rate. It enables patients to seek out-of-network services.</p>
+                </div>
+                <div class="col-md-3">
+                    <ul class="font-type">
+                        <li>AETNA</li>
+                        <li>Assurant/DHA</li>
+                        <li>Blue Shield of CA</li>
+                        <li>Delta Dental</li>
+                        <li>Guardian</li>
+                        <li>Metlife</li>
+                        <li>Premier Access</li>
+                        <li>Principal Standard</li>
+                        <li>United Healthcare</li>
+                      </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li>Blue Shield of CA</li>
+                        <li>Assurant/DHA</li>
+                        <li>Delta Dental</li>
+                        <li>Guardian</li>
+                        <li>Metlife</li>
+                        <li>Principal Standard</li>
+                      </ul>
+                      <button class="btn btn-dark px-4 py-2 ml-5 custom-button-1">12 More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="blog container-custom">
+  <div class="same-line">
+  <h2 class="blog-heading"><b>Blog Update</b></h2>
+  <div class="wrapper-blog same-line-button">
+    <button class="btn btn-secondary custom-button-blog py-2 px-4 my-3"><b>View All</b></button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-responsive img-fluid" src="blog/1.jpg" alt="">
+        <div class="gap">
+        <h5 class="blog-title same-text-line">Blog title goes here</h5>
+        <i class="fa fa-share float-right same-text-line mr-2 mt-1"></i>
+        <p class="float-right mr-2">3</p>
+         <i class="far fa-comment float-right same-text-line mr-3 mt-1"></i>  
+         <p class="float-right mr-2">12</p>
+      </div>
+        <p>Prevention is truly your best investment. Dental Cleanings, Exams, Sealants, Flouride Varnish and Nightguards maintain a healthy and ..</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive img-fluid" src="blog/4.jpg" alt="">
+        <div class="gap">
+          <h5 class="blog-title same-text-line">Blog title goes here</h5>
+          <i class="fa fa-share float-right same-text-line mr-2 mt-1"></i>
+          <p class="float-right mr-2">3</p>
+           <i class="far fa-comment float-right same-text-line mr-3 mt-1"></i>  
+           <p class="float-right mr-2">12</p>
+        </div>
+          <p>Prevention is truly your best investment. Dental Cleanings, Exams, Sealants, Flouride Varnish and Nightguards maintain a healthy and ..</p>  
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive img-fluid" src="blog/3.jpg" alt="">
+        <div class="gap">
+          <h5 class="blog-title same-text-line">Blog title goes here</h5>
+          <i class="fa fa-share float-right same-text-line mr-2 mt-1"></i>
+          <p class="float-right mr-2">3</p>
+           <i class="far fa-comment float-right same-text-line mr-3 mt-1"></i>  
+           <p class="float-right mr-2">12</p>
+        </div>
+          <p>Prevention is truly your best investment. Dental Cleanings, Exams, Sealants, Flouride Varnish and Nightguards maintain a healthy and ..</p>  
+      </div>
+    </div>
+
+</section>
+
+    <section class="team">
+          <h3 class="team-heading">Meet our Team</h3>
+          <div class="container-custom">
+
+            <div class="row team-row">
+          
+              <div class="col-md-3 col-sm-6 team-wrap">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
+                    <div class="overlay">
+                      <div class="team-details text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <p class="sub-text">Designer</p>
+                <p class="sentence">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum libero hic blanditiis qui temporibus rerum nisi Fusce sagittis</p>
+                </div>
+              </div>
+              <!-- end team member -->
+          
+              <div class="col-md-3 col-sm-6 team-wrap">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
+                    <div class="overlay">
+                      <div class="team-details text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="team-title">Steve Roberts</h6>
+                  <p class="sub-text">Designer</p>
+                  <p class="sentence">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum libero hic blanditiis qui temporibus rerum nisi Fusce sagittis</p>
+                </div>
+              </div>
+              <!-- end team member -->
+          
+              <div class="col-md-3 col-sm-6 team-wrap">
+                <div class="team-member last text-center">
+                  <div class="team-img">
+                    <img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
+                    <div class="overlay">
+                      <div class="team-details text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="team-title">Michael Cartney</h6>
+                  <p class="sub-text">Designer</p>
+                  <p class="sentence">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum libero hic blanditiis qui temporibus rerum nisi Fusce sagittis</p>
+                </div>
+              </div>
+              <!-- end team member -->
+
+              <div class="col-md-3 col-sm-6 team-wrap">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
+                    <div class="overlay">
+                      <div class="team-details text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                        </p>
+                        <div class="socials mt-20">
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="team-title">John Marshall</h6>
+                  <p class="sub-text">Designer</p>
+                  <p class="sentence">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum libero hic blanditiis qui temporibus rerum nisi Fusce sagittis</p>
+                </div>
+              </div>
+          <!-- end team member -->
+
+          <div class="wrapper">
+          <button class="btn btn-secondary custom-button py-2 px-4 my-3"><b>View All</b></button>
+            </div>
+            </div>
+          </div>
+    </section>
+    
+    <section class="awards">
+      <h2 class="heading-award">Awards</h2>
+      <div class="container-custom">
+      <div class="row">
+        <div class="col-md-2">
+          <img class="img-responsive img-fluid" src="sponsors/benz.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive icon-img-2 img-fluid" src="sponsors/aston.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive img-fluid" src="sponsors/ford.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive img-fluid" src="sponsors/bently.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive icon-img img-fluid" src="sponsors/audi.png" alt="">
+        </div>
+        <div class="col-md-2">
+          <img class="img-responsive icon-img-2 img-fluid" src="sponsors/jag.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="locations">
+      <div class="same-line-k">
+        <h2 class="container-custom text-white mb-5"><b>Locations</b></h2>
+        <div class="wrapper-blog same-line-button text-white">
+          <span class="float-right mr-5 ml-3 ff ">cremin.claudine@elmo.net</span>
+          <i class="fa fa-envelope float-right mr-1 mt-1 ml-3"></i>
+          <Span class="float-right mr-3 ml-3 ff">032-957-9485</Span>
+          <i class="fa fa-phone float-right mr-1 mt-1"></i>
+            </div>
+          </div>
+      <div class="row">
+        <div class="col-md-4 vachesa">
+          <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=san%20jose+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+        <div class="ab-re">
+          <button class="btn btn-dark res-but">Book Online</button>
+        </div>
+        </div>
+        <div class="col-md-4 vachesa">
+          <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=san%20jose+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+          <div class="ab-re">
+            <button class="btn btn-dark res-but">Book Online</button>
+          </div>
+        </div>
+        <div class="col-md-4 vachesa">
+          <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=san%20jose+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+          <div class="ab-re">
+            <button class="btn btn-dark res-but">Book Online</button>
+          </div>
+        </div>
+      </div>
+      <footer class="container-custom">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <ul class="nav justify-content-center justify-content-md-start">
+                <li class="nav-item">
+                  <a class="nav-link active" href="">© Copyright 2017 Growthplug.inc</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="col-12 col-md-6 mt-4 mt-md-0 text-center text-md-right">
+              <a href="" class="mx-2"><i class="fab fa-skype" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-vimeo" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+              <a href="" class="mx-2"><i class="fab fa-google" aria-hidden="true"></i></a>
+            </div>
+          </div>
+      </footer>
+    </section>
+
+    
+
+
+    <!-- -------modal1-------- -->
+
+    <div class="modal fade" id="modalAppointment3" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 1002px; margin: 10.75rem auto;" role="document">
+      <div class="modal-content d-flex justify-content-center bigmap3 modal9" style="height:auto; border-radius:0px;">
+	    
+        <div class="MAP3 ">
+	        <div class="row ">
+
+                <div class="flex-cap mapcrdcap2" style="right: 685px; width: 200px!important;"> <h5><b>San Jose, CA</b><h3></div>
+               <div class="flex-caption1 mapcrdt3" style="right:  730px; width: 200px; bottom: 62px;">
+                 <p style="color:#373737!important;text-align:center">02 Karine Throughway Apt. 647</p>
+                    <h5 class="mr-2" style="color:#343443!important;text-align:center;font-size:17px"> <b>+1 234 567 890 </b></h5>
+                </div>
+                <p class="mb-0 flotright1 mapcrd3" style="top: 365px; right: 730px; width: 200px!important;"><a href="" data-toggle="modal" data-target="#modalAppointment2" data-dismiss="modal" class="btn btn-dark"
+                    style="width: 200px; padding: 10px;">Select Location  &nbsp;  <i class="fas fa-chevron-right"></i></a></p>
+      
+                 <img src="images/map.PNG" class="img-b" width="350px" alt="">
+                
+                  <div class="flex-cap mapcrdcap2" style="right: 355px; width: 200px!important;"> <h5><b>Cupertino, CA</b><h3></div>
+                  <div class="flex-caption1  mapcrdt2" style="right: 390px; width: 200px; bottom: 62px">
+                  <p style="color:#373737!important;text-align:center; font-size: 15px;">02 Karine Throughway Apt. 647</p>
+                    <h5 class="mr-2" style="color:#343443!important;text-align:center; font-size:17px "> <b>+1 234 567 890 </b></h5>
+                </div>
+                <p class="mb-0 flotright1 mapcrd1" style="top: 365px; right: 390px; width: 200px!important;"><a href=""
+                    data-toggle="modal" data-target="#modalAppointment2" data-dismiss="modal" class="btn btn-dark"
+                    style="width: 200px; padding: 10px;">Select Location &nbsp;  <i class="fas fa-chevron-right"></i> </a></p>
+    
+                <img src="images/map.PNG" class="img-b" width="350px" alt="">
+             
+                 
+                <div class="flex-cap mapcrdcap1" style="right: 35px; width: 200px!important;"> <h5><b>San Francisco, CA</b><h3></div>
+                <div class="flex-caption1 mapcrdt1" style="right: 60px; width: 200px; bottom: 62px;">
+                  <p style="color:#373737!important;text-align:center">02 Karine Throughway Apt. 647</p>
+                    <h5 class="mr-2" style="color:#343443!important;text-align:center;font-size:17px"> <b>+1 234 567 890 </b></h5>
+                </div>
+                <p class="mb-0 flotright1 viewbutton mapcrd2" style="top: 365px; right: 60px; width: 200px!important;"><a href=""
+                    data-toggle="modal" data-target="#modalAppointment2" data-dismiss="modal" class="btn btn-dark"
+                    style="width: 200px; padding: 10px;">Select Location  &nbsp;  <i class="fas fa-chevron-right"></i> </a></p>
+
+                    <img src="images/map.PNG" class="img-b" width="320px" alt="">
+                    
+							 <div class="col-lg-1" style="height: 40px!important; right: -32px; position: absolute; z-index: 99; top: -21px;">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Modal 2-->
+ <div class="modal fade" id="modalAppointment2" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true"   style="max-height: calc(136vh - 210px); overflow-y: auto; display: none;">
+ <div class="modal-dialog" style="max-width: 978px; margin: 9.75rem auto; "  role="document">
+   <div class="modal-content pic-content mains1" style="height:auto; border-radius:0px;    width: 113%;">
+ <a href=""  data-toggle="modal" data-target="#modalAppointment3"  data-dismiss="modal">
+ <i class="fas fa-chevron-left" style="color: #333333; font-size: 25px; position: absolute; left: 25px; top: 239px;"></i></a>
+     <div class="MAP3 windowsize"  style="padding-left: 66px;">
+       <div class="col-lg-12">
+         <div class="row ">
+
+           <div class="col-lg-4"
+             style=" height: 500px; background-size: cover; background-image: url('http://deothemes.com/envato/enigma/html/img/team_1.jpg')">
+             <div class="flex-caption1  pic-cap1" style="right: 60px;
+ width: 200px!important;
+   bottom: 79px!important; height: 108px;">
+
+
+               <h5 style="color:#343443!important;text-align:center"><b>Angel Ortiz</b></h5>
+<p style="color:#343443!important;text-align:center">Dentist </p>
+
+
+             </div>
+             <p class="mb-0 flotright1  pic-cap1" style="top: 422px; right: 60px; width: 200px!important;"><a href=""
+                 data-toggle="modal" data-target="#modalAppointment" data-dismiss="modal" class="btn btn-dark"
+                 style="width: 200px">Select Doctor   <i class="fas fa-chevron-right"></i>  </a></p>
+
+           </div>
+           <div class="col-lg-4"
+             style=" height: 500px; background-size: cover; background-image: url('http://deothemes.com/envato/enigma/html/img/team_2.jpg')">
+             <div class="flex-caption1  pic-cap1" style="right: 60px;
+ width: 200px!important;
+   bottom: 79px!important; height: 108px;">
+
+
+             <h5 style="color:#343443!important;text-align:center"><b>Angel Ortiz</b></h5>
+<p style="color:#343443!important;text-align:center">Dentist </p>
+
+
+             </div>
+             <p class="mb-0 flotright1  pic-cap1" style="top:422px; right: 60px; width: 200px!important;"><a href=""
+                 data-toggle="modal" data-target="#modalAppointment" data-dismiss="modal" class="btn btn-dark"
+                 style="width: 200px">Select Doctor   <i class="fas fa-chevron-right"></i> </a></p>
+
+           </div>
+           <div class="col-lg-4 "    style="padding-right: 0px!important;
+              height: 500px; background-size: cover; background-image: url('http://deothemes.com/envato/enigma/html/img/team_3.jpg')">
+             <div class="flex-caption1  pic-cap1" style="right: 60px;
+ width: 200px!important;
+bottom: 79px!important; height: 108px;">
+
+<h5 style="color:#343443!important;text-align:center"><b>Angel Ortiz</b></h5>
+<p style="color:#343443!important;text-align:center">Dentist </p>
+
+
+             </div>
+             <p class="mb-0 flotright1  pic-cap1" style="top: 422px; right: 60px; width: 200px!important;"><a href=""
+                 data-toggle="modal" data-target="#modalAppointment" data-dismiss="modal" class="btn btn-dark"
+                 style="width: 200px">Select Doctor <i class="fas fa-chevron-right"></i>  </a></p>
+       
+        <div class="col-lg-1 pic-close" style="height: 40px!important;
+ right: -32px;
+ position: absolute;
+ z-index: 99;
+ top: -21px;">
+         <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+
+ </div>
+</div>
+
+
+<!-- ------modal1---- -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel"
+aria-hidden="true"   style="max-height: calc(136vh - 210px);
+overflow-y: auto;
+display: none;">
+<div class="modal-dialog"   style=" max-width: 1070px;" role="document">
+  <div class="modal-content formcontent" style="    padding-left: 94px; width:100%; height:670px;">
+<a href="" data-toggle="modal" data-target="#modalAppointment2" data-dismiss="modal">
+ <i class="fas fa-chevron-left" style="color: #333333;font-size: 25px; position: absolute; left: 25px; top: 300px;"></i></a>
+    <div class="modal-header " style=" background-color: #efe9db; padding-bottom: 26px;">
+      <div class="col-lg-11 head-space" style="height:40px!important;">
+        <h2 style="text-align:center;color:#d9b24f;"><b>Book an Appointment</b></h2>
+      </div>
+      <div class="col-lg-1" style="height:40px!important;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+    <div class="modal-body" style="background-color: #efe9db;">
+      <form action="#">
+        <div class="row raw1">
+          <div class="col-lg-3 ">
+            <div class="popstaff">
+              <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image--cover">   
+              <h5 style="color:#343443!important;text-align:center;top:95px; " ><b>Angel Ortiz</b></h5>
+              <h5 style="color:#343443!important;text-align:center;top:105px;">Dentist </h5>      
+            </div>
+          </div>
+          <div class="col-lg-8 top-space">
+            <div class="row">
+              <div class="col-md-6 orange">
+                <div class="form-group">
+                  <input type="text" placeholder="First Name" class="form-control pt-4 pb-4 nk" id="appointment_name">
+                </div>
+              </div>
+              <div class="col-md-6 orange">
+                <div class="form-group">
+                  <input type="text" placeholder="Last Name" class="form-control pt-4 pb-4 nk" id="appointment_name">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 orange">
+                <div class="form-group">
+                  <input type="email" placeholder="Email" class="form-control pt-4 pb-4 nk" id="appointment_name">
+                </div>
+              </div>
+              <div class="col-md-6 orange">
+                <div class="form-group">
+
+                  <input type="number" placeholder="Phone" class="form-control pt-4 pb-4 nk" id="appointment_name">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-12 ora">
+                  <label for="appointment_date" class="" style="color:black;"><b>Select Day &nbsp; &nbsp; <span style="color: grey;">(You can select multiple days)</span></label>
+                </div>
+              </div>
+              <div class="row">
+                  <button type="submit" class="btn btn-light mr-2 ml-3" id="two">Mon</button>
+                  <button type="submit" class="btn btn-light mr-2" id="two">Tue</button>                             
+                  <button type="submit" class="btn btn-light mr-2" id="two">Wed</button>                      
+                  <button type="submit" class="btn btn-light mr-2" id="two">Thu</button>            
+                  <button type="submit" class="btn btn-light mr-2" id="two">Fri</button>            
+                  <button type="submit" class="btn btn-light mr-2" id="two">Sat</button>
+             </div>
+            </div>
+
+            <div class="form-group ">
+              <div class="row">
+                <div class="col-md-12 time">
+                  <label for="appointment_date" class="" style="color:black;"><b>Select Day</label>
+                </div>
+              </div>
+                <div class="row  cct "style="align-content: flex-start; margin-left: 0px;">
+                  <button type="submit" class="btn btn-light mr-2" id="two">Morning</button>
+                  <button type="submit" class="btn btn-light mr-2" id="two">afternoon</button>         
+                  <button type="submit" class="btn btn-light mr-2" id="two">Evening</button>
+              </div>
+            </div>
+
+            <div class="g-recaptcha" data-sitekey="6LdXap8UAAAAAKVFR_r13lR86BPPSeZ41d-0i3ie"></div>
+            <div class="form-group">
+              <input type="submit" value="Request an Appointment" data-toggle="modal"
+                data-target="#modalAppointment4" data-dismiss="modal" class="btn btn-dark pt-3 pb-3 largebutt">
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+</div>
+ 
+    <script>
+    $('.carousel').carousel({
+  interval: 2000
+})
+    </script>
+
+</body>
+</html>
